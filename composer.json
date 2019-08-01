@@ -21,7 +21,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/admin_toolbar": "^1.27",
-        "drupal/console": "^1.0.2",
+        "drupal/console": "^1.9",
         "drupal/core": "^8.7.0",
         "drupal/ctools": "^3.2",
         "drupal/devel": "^2.1",
