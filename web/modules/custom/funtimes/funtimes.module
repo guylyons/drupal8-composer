@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains funtimes.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function funtimes_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the funtimes module.
+    case 'help.page.funtimes':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('It is fun.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function funtimes_theme() {
+  return [
+    'funtimes' => [
+      'render element' => 'children',
+    ],
+  ];
+}

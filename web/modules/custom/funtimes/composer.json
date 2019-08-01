@@ -1,0 +1,13 @@
+{
+    "name": "funtimes",
+    "type": "drupal-module",
+    "description": "It is fun.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/funtimes",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/funtimes",
+        "source": "http://cgit.drupalcode.org/funtimes",
+    },
+}
