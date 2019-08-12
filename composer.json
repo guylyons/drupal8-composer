@@ -24,6 +24,7 @@
         "drupal/console": "^1.9",
         "drupal/core": "^8.7.0",
         "drupal/ctools": "^3.2",
+        "drupal/deploy": "^1.0@beta",
         "drupal/devel": "^2.1",
         "drupal/drush": "^6.0@RC",
         "drupal/environment_indicator": "^3.6",
